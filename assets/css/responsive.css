@@ -55,6 +55,10 @@
         margin-top: 20px;
         font-size: 1.4rem;
     }
+    .grid__col-4 {
+        width: 33.33333%;
+        padding: 8px;
+    }
 }
 
 @media (max-width: 974px) {
@@ -146,4 +150,8 @@
         visibility: hidden !important;
     }
 
+    .grid__col-6 {
+        width: 50%;
+        padding: 8px;
+    }
 }

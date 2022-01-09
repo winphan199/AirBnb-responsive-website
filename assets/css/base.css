@@ -35,13 +35,3 @@ html {
     width: 25%;
     padding: 8px;
 }
-
-.grid__col-4 {
-    width: 33.33333%;
-    padding: 8px;
-}
-
-.grid__col-6 {
-    width: 50%;
-    padding: 8px;
-}
