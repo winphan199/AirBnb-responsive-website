@@ -1,0 +1,149 @@
+@media (min-width: 1129px) {
+    #header {
+        box-shadow: none;
+    }
+
+    .after-btn,
+    .previous-btn {
+        visibility: hidden !important;
+    }
+
+    .experience-limit-row {
+        transform: translateX(0%) !important;
+        -webkit-transform: translateX(0%) !important;
+        -moz-transform: translateX(0%) !important;
+        -ms-transform: translateX(0%) !important;
+        -o-transform: translateX(0%) !important;
+}
+}
+
+@media (max-width: 1128px) {
+    .grid {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .header__brand-link {
+        overflow: hidden;
+        width: 32px;
+    }
+
+    .after-btn {
+        visibility: visible;
+    }
+
+    .learn-more__link {
+        padding-top: 360px;
+    }
+
+    .learn-more__content {
+        padding: 0 40px;
+        width: 360px;
+    }
+
+    .learn-more__content-heading {
+        font-size: 3rem;
+        line-height: 3.6rem;
+    }
+
+    .learn-more__content-body {
+        font-size: 1.6rem;
+    }
+
+    .learn-more__btn {
+        padding: 9px 16px;
+        margin-top: 20px;
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 974px) {
+    .header__brand {
+        flex: 0 0 52px;
+    }
+
+    .header-navbar-search {
+        margin: 0;
+    }
+
+    .header-search-form {
+        top: 63px;
+    }
+
+    .header-navbar__list--mid {
+        position: relative;
+        top: 63px;
+        left: 190px;
+        right: 0px;
+    }
+
+    #intro {
+        padding-top: 770px;
+    }
+
+    #header::before,
+    .header-navbar ,
+    .header-search-form {
+        display: none;
+    }
+
+    .intro-content__text {
+        font-size: 2.4rem;
+    }
+
+    .mobile-search {
+        display: flex;
+    }
+
+    .footer-mobile {
+        flex-direction: column;
+    }
+
+    .grid__col-12-s {
+        width: 100%;
+        padding: 8px;
+    }
+
+    .footer-item::after {
+        content: "";
+        height: 1px;
+        background-color: rgba(0, 0, 0, 0.1);
+        display: block;
+        position: relative;
+        bottom: -30px;
+    }
+    
+    .footer-item:last-child::after {
+        display: none;
+    }
+
+    .additional-info-list__item--socials {
+        display: none;
+    }
+
+    .mobile-reverse {
+        order: 1;
+    }
+
+    .footer__add-info {
+        flex-direction: column;
+    }
+
+    .additional-info-list {
+        padding: 8px 0;
+    }
+
+    .footer__add-info > .mobile-reverse {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .mobile-hide {
+        display: none !important;
+    }
+
+    .additional-info-list__item-sep {
+        visibility: hidden !important;
+    }
+
+}

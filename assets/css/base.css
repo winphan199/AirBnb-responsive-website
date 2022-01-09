@@ -1,0 +1,47 @@
+:root {
+    --white-color: #fff;
+    --text-color: #222222;
+    --brand-color: #FF385C;
+
+    --max-screen-size: 1120px;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+/* responsive */
+.grid {
+    max-width: 100%;
+    margin: 0 auto;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.grid__col-3 {
+    width: 25%;
+    padding: 8px;
+}
+
+.grid__col-4 {
+    width: 33.33333%;
+    padding: 8px;
+}
+
+.grid__col-6 {
+    width: 50%;
+    padding: 8px;
+}
