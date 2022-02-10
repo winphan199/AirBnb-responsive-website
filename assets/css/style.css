@@ -950,11 +950,8 @@
     margin: 56px 0 64px;
     position: relative;
     display: block;
-<<<<<<< HEAD
-    background: url(/assets/img/learnmore/learnmore.jpg);
-=======
+/*     background: url(/assets/img/learnmore/learnmore.jpg); */
     background: url(/AirBnb-responsive-website/assets/img/learnmore/learnmore.jpg);
->>>>>>> a316876004de188e7ee1b23f3c2ddd9e3e6c66bd
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
