@@ -8,6 +8,6 @@
 - **Languages:** Javascript, CSS, HTML.
 - **Tools:** Visual Studio Code.
 
-## Contributers:
+## Contributors:
 
 - Hung Phan.
